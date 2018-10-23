@@ -1,0 +1,31 @@
+body main {
+  text-align: center;
+  color: white; }
+  body main h1 {
+    margin-top: 15rem;
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: rgba(168, 161, 161, 0.5); }
+  body main h2 {
+    margin-top: 5rem;
+    font-size: 3rem;
+    border: 1px solid black;
+    font-weight: bold;
+    color: rgba(168, 161, 161, 0.5); }
+  body main button {
+    margin-bottom: 20rem;
+    background-color: #a8a1a1;
+    color: white; }
+  body main p {
+    font-size: 1rem; }
+    body main p span {
+      text-decoration: underline; }
+body .modal .modal-dialog {
+  color: white; }
+  body .modal .modal-dialog .modal-content {
+    background-color: #8f8f8f; }
+    body .modal .modal-dialog .modal-content .btn {
+      background-color: white;
+      color: #8f8f8f; }
+
+/*# sourceMappingURL=home.css.map */
