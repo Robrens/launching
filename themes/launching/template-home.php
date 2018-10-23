@@ -43,9 +43,9 @@ get_header();
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <form method="post">
+                <form id ="mail_form" method="post">
                     <div class="modal-body">
-                        <div class="form-group">
+                        <div class="form-group" id="form-group">
                             <label for="newsletter_email" class="col-form-label">Subscribe address:</label>
                             <input type="email" id="newsletter_email" name="newsletter_email" class="form-control" placeholder="Your mail address">
                         </div>
