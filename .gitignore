@@ -3,6 +3,9 @@
 /themes/index.php
 /themes/twentyfifteen
 /themes/twentysixteen
+/themes/launching/node_modules
+/themes/launching/.sass-cache
+/themes/launching/package-lock.json
 /plugins/akismet
 /plugins/hello.php
 /plugins/index.php
