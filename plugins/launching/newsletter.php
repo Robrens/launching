@@ -25,9 +25,9 @@
 
         public function save_email()
         {
-            if (isset($_POST['newsletter_email']) && !empty($_POST['newsletter_email'])) {
+            if (isset($_POST['email']) && !empty($_POST['email'])) {
                 global $wpdb;
-                $email = $_POST['newsletter_email'];
+                $email = $_POST['email'];
 
                 $row = $wpdb->get_row("SELECT * FROM {$wpdb->prefix}newsletter_email WHERE email = '$email'");
                 if (is_null($row)) {
